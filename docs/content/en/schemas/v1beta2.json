@@ -792,6 +792,13 @@
       "x-intellij-html-description": "contains the configuration for the SHA tagger."
     },
     "SkaffoldConfig": {
+      "x-kubernetes-group-version-kind": [
+        {
+          "kind": "Config",
+          "version": "v1beta2",
+          "group": "skaffold"
+        }
+      ],
       "properties": {
         "apiVersion": {
           "type": "string"
